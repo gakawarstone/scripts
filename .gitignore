@@ -1,0 +1,3 @@
+# .rpyc files
+*.rpyc
+**/*.rpyc
