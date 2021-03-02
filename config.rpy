@@ -55,7 +55,6 @@ init:
     image mnc_bch = "mods/gkmod/image/sprites/sprites_monica/mon_happy_beachleder.png"
 
     #sprites_new
-    image aml_std = "mods/gkmod/image/sprites/new_sprites/aml_std.png"
     image ann_std = "mods/gkmod/image/sprites/new_sprites/ann_std.png"
     image ant_std = "mods/gkmod/image/sprites/new_sprites/ant_std.png"
     image ant_cas = "mods/gkmod/image/sprites/new_sprites/ant_cas.png"
