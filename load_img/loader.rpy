@@ -4,7 +4,7 @@ init 1 python:
         return "mods/gkmod/image/sprites/" + name + '/' + name + '_' + closes + ".png"
 
     def load_bg(_dir, name):
-        return "mods/gkmod/image/bg/" + _dir +'/' + name ".jpg"
+        return "mods/gkmod/image/bg/" + _dir +'/' + name + ".jpg"
 
     def load_cg(_dir, name):
-        return "mods/gkmod/image/cg/" + _dir + '/' + name ".jpg"
+        return "mods/gkmod/image/cg/" + _dir + '/' + name + ".jpg"

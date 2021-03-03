@@ -44,44 +44,6 @@ init:
 
     #SPRITES
     #sprites_pidors
-    image gws_std = "mods/gkmod/image/sprites/sprites_beginbeginig/pidornuberone.png"
-    image dio_std = "mods/gkmod/image/sprites/sprites_beginbeginig/pidornuberthree.png"
-    image rei_std = "mods/gkmod/image/sprites/sprites_beginbeginig/notgay.png"
-    image gen_std = "mods/gkmod/image/sprites/sprites_beginbeginig/pidornubertwo.png"
-    image m6g_std = "mods/gkmod/image/sprites/sprites_beginbeginig/notfrandly.png"
-
-    image mnc_std = "mods/gkmod/image/sprites/sprites_monica/mon_happy_leder.png"
-
-    image mnc_bch = "mods/gkmod/image/sprites/sprites_monica/mon_happy_beachleder.png"
-
-    #sprites_new
-    image ann_std = "mods/gkmod/image/sprites/new_sprites/ann_std.png"
-    image ant_std = "mods/gkmod/image/sprites/new_sprites/ant_std.png"
-    image ant_cas = "mods/gkmod/image/sprites/new_sprites/ant_cas.png"
-    image dan_std = "mods/gkmod/image/sprites/new_sprites/dan_std.png"
-    image eva_std = "mods/gkmod/image/sprites/new_sprites/eva_std.png"
-    image evl_std = "mods/gkmod/image/sprites/new_sprites/evl_std.png"
-    image fiz_std = "mods/gkmod/image/sprites/new_sprites/fiz_std.png"
-    image fiz_grl_std = "mods/gkmod/image/sprites/new_sprites/fiz_grl_std.png"
-    image gws_pio = "mods/gkmod/image/sprites/new_sprites/gws_pio.png"
-    image ily_std = "mods/gkmod/image/sprites/new_sprites/ily_std.png"
-    image kat_std = "mods/gkmod/image/sprites/new_sprites/kat_std.png"
-    image kol_std = "mods/gkmod/image/sprites/new_sprites/kol_std.png"
-    image kri_std = "mods/gkmod/image/sprites/new_sprites/kri_std.png"
-    image lid_std = "mods/gkmod/image/sprites/new_sprites/lid_std.png"
-    image lik_pri = "mods/gkmod/image/sprites/new_sprites/lik_pri.png"
-    image lik_std = "mods/gkmod/image/sprites/new_sprites/lik_std.png"
-    image lis_cas = "mods/gkmod/image/sprites/new_sprites/lis_cas.png"
-    image lis_pio = "mods/gkmod/image/sprites/new_sprites/lis_pio.png"
-    image mas_std = "mods/gkmod/image/sprites/new_sprites/mas_std.png"
-    image nik_std = "mods/gkmod/image/sprites/new_sprites/nik_std.png"
-    image nat_pri = "mods/gkmod/image/sprites/new_sprites/nat_pri.png"
-    image pov_std = "mods/gkmod/image/sprites/new_sprites/pov_std.png"
-    image rei_cas = "mods/gkmod/image/sprites/new_sprites/rei_cas.png"
-    image rei_pio = "mods/gkmod/image/sprites/new_sprites/rei_pio.png"
-    image rit_std = "mods/gkmod/image/sprites/new_sprites/rit_std.png"
-    image tim_std = "mods/gkmod/image/sprites/new_sprites/tim_std.png"
-
 
     #BG
     image city = "mods/gkmod/image/bg/bg_prolog/city_aus.jpg"

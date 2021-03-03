@@ -100,13 +100,27 @@ label day_1:
     evl "Здесь"
 
     mt "Ваня"
-    hide gws_std with dissolve
+    hide evl_std with dissolve
     show gws_std with dissolve2
     gws "Здесь"
     mt "Опять же как и Антону пройдешь за формой понял куда?"
     gws "А да понял"
     mt "И допей уже свою колу и выкинь ее у нас тут такое непринято"
     gws "Ладно"
+
+    mt "Рустам"
+    hide gws_std with dissolve
+    show dio_std with dissolve2
+    dio "Здесь"
+    mt "Думаю ты понял ты тоже идешь за формой"
+
+    mt "Гена"
+    hide dio_std with dissolve
+    show gen_std with dissolve2
+    gen "Здесь"
+
+    
+
 
     th ""
 
