@@ -32,7 +32,7 @@ init:
 
     $ lis = Character (u'Лиза', color="FF7370", what_color="9F5070")
 
-    $ aml = Character (u'Амелия', color="FF7370", what_color="9F5070")
+#    $ aml = Character (u'Амелия', color="FF7370", what_color="9F5070")
 
     $ ant = Character (u'Антон', color="FF7370", what_color="9F5070")
 
@@ -41,9 +41,6 @@ init:
     $ eva = Character (u'Ева', color="FF7370", what_color="9F5070")
 
     $ evl = Character (u'Эвелина', color="FF7370", what_color="9F5070")
-
-    #SPRITES
-    #sprites_pidors
 
     #BG
     image city = "mods/gkmod/image/bg/bg_prolog/city_aus.jpg"

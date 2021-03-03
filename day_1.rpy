@@ -3,36 +3,37 @@
 # систему игры
 
 label day_1:
+    $ day_time()
     scene bus with dissolve2
     th "Так стоп а где это я..."
     th "Что я здесь делаю"
     th "О а я тут не один"
-    show rei_std at left with dissolve
-    show dio_std at right with dissolve
-    show gen_std at cleft with dissolve
-    show gws_std at cright with dissolve
-    show m6g_std with dissolve
+    show rei_cas at left with dissolve
+    show dio_pio at right with dissolve
+    show gen_pio at cleft with dissolve
+    show gws_cas at cright with dissolve
+    show m6g_jac with dissolve
     th "Тут уже знакомые мне Ваня Рома Гена Рустам и Данил"
     scene bus with dissolve2
     show lis_pio at left with dissolve
-    show aml_std at right with dissolve
-    show evl_std at cleft with dissolve
-    show kat_std at cright with dissolve
-    show eva_std with dissolve
+    show aml_cas at right with dissolve
+    show evl_cas at cleft with dissolve
+    show kat_cas at cright with dissolve
+    show eva_cas with dissolve
     th "И еще"
     scene bus with dissolve2
-    show kri_std at left with dissolve
-    show lik_pri at right with dissolve
-    show mas_std at cleft with dissolve
-    show rit_std at cright with dissolve
+    show kri_cas at left with dissolve
+    show lik_cas at right with dissolve
+    show mas_cas at cleft with dissolve
+    show rit_cas at cright with dissolve
     show ant_cas with dissolve
     th "И еще"
     scene bus with dissolve2
-    show dan_std at left with dissolve
-    show kol_pri at right with dissolve
-    show ily_std at cleft with dissolve
-    show lid_std at cright with dissolve
-    show tim_std with dissolve
+    show dan_cas at left with dissolve
+    show kol_cas at right with dissolve
+    show ily_cas at cleft with dissolve
+    show lid_cas at cright with dissolve
+    show tim_cas with dissolve
     th "Но кто это такие и почему они тоже здесь"
     th "Что случилось с нашей ГЕЙ ПАРТИ откуда здесь они"
     th "Зачем они здесь..."
@@ -65,12 +66,12 @@ label day_1:
     mt "Начнем..."
 
     mt "Амелия"
-    show aml_std with dissolve2
+    show aml_pio with dissolve2
     aml "Здесь"
     th "Оу перекличка как интерестно... Могли бы ченить поинтерестнее придумать"
 
     mt "Антон"
-    hide aml_std with dissolve
+    hide aml_pio with dissolve
     show ant_cas with dissolve2
     ant "Здесь"
     mt "Так так почему не в форме?"
@@ -84,43 +85,117 @@ label day_1:
 
     mt "Денис"
     hide ant_cas with dissolve
-    show dan_std with dissolve2
+    show dan_pio with dissolve2
     dan "Здесь"
 
     mt "Денис"
-    hide dan_std with dissolve
-    show eva_std with dissolve2
+    hide dan_pio with dissolve
+    show eva_pio with dissolve2
     eva "Здесь"
     th "Кого то она мне напоминает 365 раз ее я где-то видел"
     th "Может просто похожа..."
 
     mt "Эвелина"
-    hide eva_std with dissolve
-    show evl_std with dissolve2
+    hide eva_pio with dissolve
+    show evl_cas with dissolve2
     evl "Здесь"
+    mt "Иди к Славе сейчас после переклички пойдете за формой"
 
     mt "Ваня"
-    hide evl_std with dissolve
-    show gws_std with dissolve2
+    hide evl_cas with dissolve
+    show gws_cas with dissolve2
     gws "Здесь"
-    mt "Опять же как и Антону пройдешь за формой понял куда?"
+    mt "Опять же форма понял?"
     gws "А да понял"
     mt "И допей уже свою колу и выкинь ее у нас тут такое непринято"
     gws "Ладно"
 
     mt "Рустам"
-    hide gws_std with dissolve
-    show dio_std with dissolve2
+    hide gws_cas with dissolve
+    show dio_pio with dissolve2
     dio "Здесь"
     mt "Думаю ты понял ты тоже идешь за формой"
 
     mt "Гена"
-    hide dio_std with dissolve
-    show gen_std with dissolve2
+    hide dio_pio with dissolve
+    show gen_pio with dissolve2
     gen "Здесь"
 
-    
+    mt "Илья"
+    hide gen_pio with dissolve
+    show ily_cas with dissolve2
+    ily "Здесь"
+    mt "Форма я думаю уже все поняли но я все таки повторю"
 
+    mt "Катя"
+    hide ily_cas with dissolve
+    show kat_cas with dissolve2
+    kat "Здесь"
+    mt "Форма"
+
+    mt "Коля"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+    mt "Как же много вас безформенных ну да ладно"
+
+    mt "Коля"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Кристина"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Лида"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Лиза"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Лика"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Рома"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Маша"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Моника"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Данил"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Рита"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Тимур"
+    hide kat_cas with dissolve
+    show kol_cas with dissolve2
+    kat "Здесь"
+
+    mt "Вот мы и закончили перекличку"
+    mt "Да многовато вас здесь"
 
     th ""
 
