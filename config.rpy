@@ -2,7 +2,7 @@ init:
 
     $ mods["gk_story"]= "{font=mods/gkmod/image/font/font1.ttf}{size=45}{color=#92770a}Я непридумал название{/font}{/color}{/size}"
 
-    $ mods["busket_game"]= "{font=mods/gkmod/image/font/font1.ttf}{size=45}{color=#92770a}Баскетболл{/font}{/color}{/size}"
+    $ mods["init_busket"]= "{font=mods/gkmod/image/font/font1.ttf}{size=45}{color=#92770a}Баскетболл{/font}{/color}{/size}"
 
     $ mods["day_1"]= "{font=mods/gkmod/image/font/font1.ttf}{size=45}{color=#92770a}День первый{/font}{/color}{/size}"
 

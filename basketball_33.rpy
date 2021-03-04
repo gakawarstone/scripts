@@ -65,7 +65,9 @@ init python:
             else:
                 return False
 
-    game = Game_busket()
+
+label init_busket():
+    $ game = Game_busket()
 
 
 label busket_game:
@@ -82,7 +84,7 @@ label busket_game:
         return
 
     scene busket
-    show gws_pio at right with dissolve2
+    show gws_pio at right with dissolve
     gws "Я бросаю мяч"
     $ man = 'gws'
     if game.hit(man):
@@ -95,7 +97,7 @@ label busket_game:
         return
 
     scene busket
-    show dio_pio at right with dissolve2
+    show dio_pio at right with dissolve
     dio "Я бросаю мяч"
     $ man = 'dio'
     if game.hit(man):
@@ -108,7 +110,7 @@ label busket_game:
         return
 
     scene busket
-    show rei_pio at right with dissolve2
+    show rei_pio at right with dissolve
     rei "Я бросаю мяч"
     $ man = 'rei'
     if game.hit(man):
@@ -121,7 +123,7 @@ label busket_game:
         return
 
     scene busket
-    show m6g_jac at right with dissolve2
+    show m6g_jac at right with dissolve
     m6g "Я бросаю мяч"
     $ man = 'm6g'
     if game.hit(man):
