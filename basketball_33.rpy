@@ -43,6 +43,7 @@ init python:
 
 
         def hit(self, man):
+            """
             if self.score[man] >= 30 and self.check_hit_3x(man):
                 self.score[man] += 1
                 return True
@@ -51,6 +52,16 @@ init python:
                 self.score[man] += 2
                 return True
 
+            else:
+                return False
+            """
+            if self.check_hit_2x(man):
+                if self.score[man] < 30:
+                    self.score[man] += 2
+                    return True
+            elif self.score[man] >= 30 and self.check_hit_3x(man):
+                    self.score[man] += 1
+                    return True
             else:
                 return False
 
@@ -66,9 +77,12 @@ label busket_game:
         me "попал у меня теперь [score]"
     else:
         me "промах"
+    if game.score[man] == 33:
+        me "Я выйграл"
+        return
 
     scene busket
-    show gws_std at right with dissolve2
+    show gws_pio at right with dissolve2
     gws "Я бросаю мяч"
     $ man = 'gws'
     if game.hit(man):
@@ -76,9 +90,12 @@ label busket_game:
         gws "попал у меня теперь [score]"
     else:
         gws "промах"
+    if game.score[man] == 33:
+        gws "Я выйграл"
+        return
 
     scene busket
-    show dio_std at right with dissolve2
+    show dio_pio at right with dissolve2
     dio "Я бросаю мяч"
     $ man = 'dio'
     if game.hit(man):
@@ -86,9 +103,12 @@ label busket_game:
         dio "попал у меня теперь [score]"
     else:
         dio "промах"
+    if game.score[man] == 33:
+        dio "Я выйграл"
+        return
 
     scene busket
-    show rei_std at right with dissolve2
+    show rei_pio at right with dissolve2
     rei "Я бросаю мяч"
     $ man = 'rei'
     if game.hit(man):
@@ -96,9 +116,12 @@ label busket_game:
         rei "попал у меня теперь [score]"
     else:
         rei "промах"
+    if game.score[man] == 33:
+        rei "Я выйграл"
+        return
 
     scene busket
-    show m6g_std at right with dissolve2
+    show m6g_jac at right with dissolve2
     m6g "Я бросаю мяч"
     $ man = 'm6g'
     if game.hit(man):
@@ -106,5 +129,8 @@ label busket_game:
         m6g "попал у меня теперь [score]"
     else:
         m6g "промах"
+    if game.score[man] == 33:
+        m6g "Я выйграл"
+        return
 
     jump busket_game
