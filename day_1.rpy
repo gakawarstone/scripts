@@ -16,10 +16,10 @@ label day_1:
     th "Тут уже знакомые мне Ваня Рома Гена Рустам и Данил"
     scene bus with dissolve2
     show lis_pio at left with dissolve
-    show aml_cas at right with dissolve
+    show aml_pio at right with dissolve
     show evl_cas at cleft with dissolve
     show kat_cas at cright with dissolve
-    show eva_cas with dissolve
+    show eva_pio with dissolve
     th "И еще"
     scene bus with dissolve2
     show kri_cas at left with dissolve
@@ -29,11 +29,11 @@ label day_1:
     show ant_cas with dissolve
     th "И еще"
     scene bus with dissolve2
-    show dan_cas at left with dissolve
-    show kol_cas at right with dissolve
+    show dan_pio at left with dissolve
+    show kol_pio at right with dissolve
     show ily_cas at cleft with dissolve
     show lid_cas at cright with dissolve
-    show tim_cas with dissolve
+    show tim_pio with dissolve
     th "Но кто это такие и почему они тоже здесь"
     th "Что случилось с нашей ГЕЙ ПАРТИ откуда здесь они"
     th "Зачем они здесь..."
@@ -88,7 +88,7 @@ label day_1:
     show dan_pio with dissolve2
     dan "Здесь"
 
-    mt "Денис"
+    mt "Ева"
     hide dan_pio with dissolve
     show eva_pio with dissolve2
     eva "Здесь"
@@ -135,64 +135,59 @@ label day_1:
 
     mt "Коля"
     hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
-    mt "Как же много вас безформенных ну да ладно"
-
-    mt "Коля"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    show kol_pio with dissolve2
+    kol "Здесь"
 
     mt "Кристина"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    hide kol_pio with dissolve
+    show kri_cas with dissolve2
+    kri "Здесь"
+    mt "Как же много вас безформенных ну да ладно"
 
-    mt "Лида"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    mt "ЛидА"
+    hide kri_cas with dissolve
+    show lid_cas with dissolve2
+    lid "Здесь"
 
     mt "Лиза"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    hide lid_cas with dissolve
+    show lis_pio with dissolve2
+    lis "Здесь"
 
     mt "Лика"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    hide lis_pio with dissolve
+    show lik_cas with dissolve2
+    lik "Здесь"
 
     mt "Рома"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    hide lik_cas with dissolve
+    show m6g_jac with dissolve2
+    m6g "Здесь"
 
     mt "Маша"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    hide m6g_jac with dissolve
+    show mas_cas with dissolve2
+    mas "Здесь"
 
     mt "Моника"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    hide mas_cas with dissolve
+    show mnc_pio with dissolve2
+    mnc "Здесь"
 
-    mt "Данил"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    mt "Денис"
+    hide mnc_pio with dissolve
+    show dan_pio with dissolve2
+    dan "Здесь"
 
     mt "Рита"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    hide dan_pio with dissolve
+    show rit_cas with dissolve2
+    rit "Здесь"
 
     mt "Тимур"
-    hide kat_cas with dissolve
-    show kol_cas with dissolve2
-    kat "Здесь"
+    hide rit_cas with dissolve
+    show tim_pio with dissolve2
+    tim "Здесь"
 
     mt "Вот мы и закончили перекличку"
     mt "Да многовато вас здесь"
@@ -202,9 +197,9 @@ label day_1:
 
     mt "Э старый состав к вам тут пополнение из далеких великих степей процветающей союзной республики Казахстан"
     mt "Вас дохуя а меня нихуя поэтому я решила тут так сказат суеты навести"
-    mt "Корочи салаги слушайте внимательно я заебалась тут за вашими шароебами следить поэтому епта"
-    mt "Теперь меня будет три Ахуели? И правильно сделали"
-    mt "Я вам представляю двух новых вожатых Анечку и Нику и сандалевы паганцы чтоб не доебывали их"
+#    mt "Корочи салаги слушайте внимательно я заебалась тут за вашими шароебами следить поэтому епта"
+#    mt "Теперь меня будет три Ахуели? И правильно сделали"
+#    mt "Я вам представляю двух новых вожатых Анечку и Нику и сандалевы паганцы чтоб не доебывали их"
 
 #    рита предет попозжя вместе с новыми вожатыми
 #    show lisa_std at left
@@ -216,3 +211,4 @@ label day_1:
 #    ебаный насвай чета вас дохуя как бы вас сука познокомить а ну давайте поиграем в часы окей ну да окей катя с элей сьебутся походу игры помогать в столовку
 #    ебаные вы прокрастиноторы сцука вы должны лять щаписаться на какую нибуь хуйню и ходить туда а не шароебится блять здесь это вам не летний лагерь это гулак блять
 #    это наш физрук Павел Николаевич если хочешь стать как жатара то тебе к нему
+#    на пидар обходной лист иди обхади
