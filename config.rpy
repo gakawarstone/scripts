@@ -69,3 +69,9 @@ init:
 
     #love var
     $ mnk_love = 0
+
+    transform go_out_left:
+        linear 0.5 xpos -0.3
+
+    transform go_out_right:
+        linear 0.5 xpos 1.3

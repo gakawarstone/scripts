@@ -67,13 +67,14 @@ label day_1:
     mt "Начнем..."
 
     mt "Амелия"
-    show aml_pio with dissolve2
+    show aml_pio with dissolve
     aml "Здесь"
     th "Оу перекличка как интерестно... Могли бы ченить поинтерестнее придумать"
+    show aml_pio at go_out_right
 
     mt "Антон"
-    hide aml_pio with dissolve
-    show ant_cas with dissolve2
+    hide aml_pio
+    show ant_cas with dissolve
     ant "Здесь"
     mt "Так так почему не в форме?"
     ant "А ну это..."
@@ -82,108 +83,129 @@ label day_1:
     mt "Форму вы сможете получить в около склада встретитесь там с нашим физруком он вам и выдаст форму"
     mt "Я думаю все все поняли к складу после переклички вас проведет Славя"
     sl "Хорошо Ольга Дмитриевна"
+    show ant_cas at go_out_left
 
 
     mt "Денис"
-    hide ant_cas with dissolve
-    show dan_pio with dissolve2
+    hide ant_cas
+    show dan_pio with dissolve
     dan "Здесь"
+    show dan_pio at go_out_right
 
     mt "Ева"
-    hide dan_pio with dissolve
-    show eva_pio with dissolve2
+    hide dan_pio
+    show eva_pio with dissolve
     eva "Здесь"
     th "Кого то она мне напоминает 365 раз ее я где-то видел"
     th "Может просто похожа..."
+    show eva_pio at go_out_right
 
     mt "Эвелина"
-    hide eva_pio with dissolve
-    show evl_cas with dissolve2
+    hide eva_pio
+    show evl_cas with dissolve
     evl "Здесь"
     mt "Иди к Славе сейчас после переклички пойдете за формой"
+    show evl_cas at go_out_left
 
     mt "Ваня"
-    hide evl_cas with dissolve
-    show gws_cas with dissolve2
+    hide evl_cas
+    show gws_cas with dissolve
     gws "Здесь"
     mt "Опять же форма понял?"
     gws "А да понял"
     mt "И допей уже свою колу и выкинь ее у нас тут такое непринято"
     gws "Ладно"
+    show gws_cas at go_out_left
 
     mt "Рустам"
-    hide gws_cas with dissolve
-    show dio_pio with dissolve2
+    hide gws_cas
+    show dio_pio with dissolve
     dio "Здесь"
     mt "Думаю ты понял ты тоже идешь за формой"
+    show dio_pio at go_out_left
 
     mt "Гена"
-    hide dio_pio with dissolve
-    show gen_pio with dissolve2
+    hide dio_pio
+    show gen_pio with dissolve
     gen "Здесь"
+    show gen_pio at go_out_right
 
     mt "Илья"
-    hide gen_pio with dissolve
-    show ily_cas with dissolve2
+    hide gen_pio
+    show ily_cas with dissolve
     ily "Здесь"
     mt "Форма я думаю уже все поняли но я все таки повторю"
+    show ily_cas at go_out_left
 
     mt "Катя"
-    hide ily_cas with dissolve
-    show kat_cas with dissolve2
+    hide ily_cas
+    show kat_cas with dissolve
     kat "Здесь"
     mt "Форма"
+    show kat_cas at go_out_left
 
     mt "Коля"
-    hide kat_cas with dissolve
-    show kol_pio with dissolve2
+    hide kat_cas
+    show kol_pio with dissolve
     kol "Здесь"
+    show kol_pio at go_out_right
 
     mt "Кристина"
-    hide kol_pio with dissolve
-    show kri_cas with dissolve2
+    hide kol_pio
+    show kri_cas with dissolve
     kri "Здесь"
     mt "Как же много вас безформенных ну да ладно"
+    show kri_cas at go_out_left
 
     mt "ЛидА"
-    hide kri_cas with dissolve
-    show lid_cas with dissolve2
+    hide kri_cas
+    show lid_cas with dissolve
     lid "Здесь"
+    show lid_cas at go_out_left
 
     mt "Лиза"
-    hide lid_cas with dissolve
-    show lis_pio with dissolve2
+    hide lid_cas
+    show lis_pio with dissolve
     lis "Здесь"
+    show lis_pio at go_out_right
 
     mt "Лика"
-    hide lis_pio with dissolve
-    show lik_cas with dissolve2
+    hide lis_pio
+    show lik_cas with dissolve
     lik "Здесь"
+    show lik_cas at go_out_left
 
     mt "Рома"
-    hide lik_cas with dissolve
-    show m6g_jac with dissolve2
+    hide lik_cas
+    show m6g_jac with dissolve
     m6g "Здесь"
+    mt "Снимай свою куртку тебе че холодно?"
+    m6g "Окей ясьненько"
+    show m6g_jac at go_out_right
 
     mt "Маша"
-    hide m6g_jac with dissolve
-    show mas_cas with dissolve2
+    hide m6g_jac
+    show mas_cas with dissolve
     mas "Здесь"
+    show mas_cas at go_out_left
 
     mt "Моника"
-    hide mas_cas with dissolve
-    show mnc_pio with dissolve2
+    hide mas_cas
+    show mnc_pio with dissolve
     mnc "Здесь"
+    show mnc_pio at go_out_right
 
     mt "Рита"
-    hide dan_pio with dissolve
-    show rit_cas with dissolve2
+    hide dan_pio
+    show rit_cas with dissolve
     rit "Здесь"
+    show rit_cas at go_out_left
 
     mt "Тимур"
-    hide rit_cas with dissolve
-    show tim_pio with dissolve2
+    hide rit_cas
+    show tim_pio with dissolve
     tim "Здесь"
+    show tim_pio at go_out_right
 
     mt "Вот мы и закончили перекличку"
     mt "Да многовато вас здесь"
