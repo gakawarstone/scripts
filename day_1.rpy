@@ -4,6 +4,7 @@
 
 label day_1:
     $ day_time()
+    $ persistent.sprite_time = "day"
     scene bus with dissolve2
     th "Так стоп а где это я..."
     th "Что я здесь делаю"
@@ -173,11 +174,6 @@ label day_1:
     hide mas_cas with dissolve
     show mnc_pio with dissolve2
     mnc "Здесь"
-
-    mt "Денис"
-    hide mnc_pio with dissolve
-    show dan_pio with dissolve2
-    dan "Здесь"
 
     mt "Рита"
     hide dan_pio with dissolve
