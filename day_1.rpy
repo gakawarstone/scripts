@@ -206,11 +206,24 @@ label day_1:
     show tim_pio with dissolve
     tim "Здесь"
     show tim_pio at go_out_right
-
     mt "Вот мы и закончили перекличку"
     mt "Да многовато вас здесь"
+    th "Ля наконец то..."
+    th "Может мы уже начнем что нибудь интересное..."
+    th "А Альцгеймер чуть не забыл мы же за формой идем"
+    th "И че мы стоим..."
+    mt "Что ж те ко за формой идите за Славей"
+    sl "Ребята пойдемте за мной"
+    show sl normal pioneer at go_out_left
+    jump go_for_uniform
 
-    th ""
+
+label go_for_uniform:
+    scene ext_road_day with dissolve2
+    scene admin_day with dissolve2
+    show fmn_spt
+    th "..."
+
 
 
     mt "Э старый состав к вам тут пополнение из далеких великих степей процветающей союзной республики Казахстан"

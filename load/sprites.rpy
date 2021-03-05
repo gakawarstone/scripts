@@ -24,6 +24,7 @@ init 2 python:
     'lid': ['cas', 'pio'],
     'tim': ['cas', 'pio'],
     'm6g': ['jac', 'pio'],
+    'fmn': ['spt'],
     }
 
     for pers in sprites_list:
