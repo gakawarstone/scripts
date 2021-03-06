@@ -12,15 +12,15 @@ init python:
             }
 
             self.skill_2x = {
-            'gws': 70,
-            'dio': 65,
-            'rei': 60,
+            'gws': 78,
+            'dio': 60,
+            'rei': 57,
             'm6g': 55,
             'you': 50,
             }
 
             self.skill_3x = {
-            'gws': 20,
+            'gws': 30,
             'dio': 16,
             'rei': 10,
             'm6g': 10,
