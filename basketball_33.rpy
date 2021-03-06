@@ -55,7 +55,7 @@ init python:
             else:
                 return False
             """
-            if self.check_hit_2x(man):
+            if self.check_hit_2x(man) and self.score[man] < 30:
                 if self.score[man] < 30:
                     self.score[man] += 2
                     return True
@@ -71,6 +71,7 @@ label init_busket():
 
 
 label busket_game:
+    $ renpy.block_rollback()
     scene busket
     me "Я бросаю мяч"
     $ man = 'you'
