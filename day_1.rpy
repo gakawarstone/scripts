@@ -223,6 +223,9 @@ label go_for_uniform:
     scene admin_day with dissolve2
     show fmn_spt
     th "..."
+    fmn "Я так понимаю они все за формой"
+    sl "Да"
+    fmn "Многовато их ну да ладно"
 
 
 

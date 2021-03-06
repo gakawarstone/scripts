@@ -6,6 +6,7 @@ init:
 
     $ mods["day_1"]= "{font=mods/gkmod/image/font/font1.ttf}{size=45}{color=#92770a}День первый{/font}{/color}{/size}"
 
+    $ mods["blpi_football"]= "{font=mods/gkmod/image/font/font1.ttf}{size=45}{color=#92770a}Футбол{/font}{/color}{/size}"
 
     #CHARACTERS
     $ thebest = Character (u'Рассказчик', color="FF4000", what_color="FFBF00")

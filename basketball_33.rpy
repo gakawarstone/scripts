@@ -43,18 +43,6 @@ init python:
 
 
         def hit(self, man):
-            """
-            if self.score[man] >= 30 and self.check_hit_3x(man):
-                self.score[man] += 1
-                return True
-
-            elif self.check_hit_2x(man):
-                self.score[man] += 2
-                return True
-
-            else:
-                return False
-            """
             if self.check_hit_2x(man) and self.score[man] < 30:
                 if self.score[man] < 30:
                     self.score[man] += 2
@@ -73,6 +61,7 @@ label init_busket():
 label busket_game:
     $ renpy.block_rollback()
     scene busket
+#    $ narrator(me, "Hello")
     me "Я бросаю мяч"
     $ man = 'you'
     if game.hit(man):
