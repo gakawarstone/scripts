@@ -11,4 +11,4 @@ init 1 python:
         return main_dir + "cg/" + _dir + '/' + name + end
 
     def load_from(_dir, name, end=".jpg"):
-        return main_dir + _dir + name + end
+        return main_dir + _dir + '/' + name + end

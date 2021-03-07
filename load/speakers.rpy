@@ -23,3 +23,4 @@ init 3 python:
     mnc = Character('Моника', color='#48D4B2')
     rit = Character('Рита', color='#48D4B2')
     tim = Character('Тимур', color='#48D4B2')
+    fmn = Character('Физрук', color='#48D4B2')

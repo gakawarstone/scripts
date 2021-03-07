@@ -226,6 +226,53 @@ label go_for_uniform:
     fmn "Я так понимаю они все за формой"
     sl "Да"
     fmn "Многовато их ну да ладно"
+    fmn "Так проходим внутрь быстро берем форму передеваемся и на выход поочереди пробки тут мне не создавайте"
+    "Все кто был не в форме прошли за формой и взяли ее вроде как все прошло без происшествий"
+    "Интерестно что же будет дальше..."
+    sl "Чтож вижу все теперь в форме можем возвращаться на площадь к Ольге Дмитриевне"
+    jump day1_plan
+
+
+label day1_plan:
+    "ДЫО ты реально думал что персонажей будет так мало ахххааахааха это не все"
+    scene bg ext_camp_entrance_day with dissolve2
+    show mt normal panama pioneer at right with dissolve
+    show sl normal pioneer at go_in_left
+    mt "Вот теперь понимаю все в форме вот это как нада"
+    mt "Чтож теперь мы можем продолжить"
+    mt "Так вот старый состав наконец-то подошел"
+    mt "Чтож теперь слушайте план на сегодня"
+    mt "Сейчас мы поиграем в игру чтобы смогли познакомится друг с другом вас тут ну как бы дохуя я конечно вахуй что этот долбаеб вас столько сюда добавил"
+    mt "Чтож сейчас я вам обьясню правила этой игры"
+    mt "Так вот правила ну как правила скорее описание игры"
+    mt "У вас у каждого есть листок с нарисованными часами"
+    mt "Если вы видите это сообщение значит эта ленивая жопа не нарисовала часы пожалуста напомните этому ленивому пидору об этом он полюбому уже забыл об этом"
+    show paper_watch at watch_right
+    '...'
+    show paper_watch_6 at watch_right
+    '...'
+    show paper_watch_2 at watch_right
+    '...'
+    show paper_watch_3 at watch_right
+    '...'
+    show paper_watch_7 at watch_right
+    '...'
+    show paper_watch_12 at watch_right
+    '...'
+    show paper_watch_1 at watch_right
+    '...'
+    show paper_watch_10 at watch_right
+    '...'
+    show paper_watch_4 at watch_right
+    '...'
+    show paper_watch_9 at watch_right
+    '...'
+    show paper_watch_5 at watch_right
+    '...'
+    show paper_watch_11 at watch_right
+    '...'
+    show paper_watch_8 at watch_right
+
 
 
 
